@@ -12,7 +12,6 @@ class PaginaLoginController implements IController
 
     public function request(): void
     {
-        Transaction::open();
         echo Render::html(
             [
                 "paginaLogin.php"
