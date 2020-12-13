@@ -3,9 +3,10 @@
 namespace Ifnc\Tads\Controller;
 
 
-use Ifnc\Tads\Entity\Pacote;
+
 use Ifnc\Tads\Helper\Render;
-use Ifnc\Tads\Helper\Transaction;
+use Ifnc\Tads\Helper\Flash;
+
 
 class PaginaLoginController implements IController
 {
