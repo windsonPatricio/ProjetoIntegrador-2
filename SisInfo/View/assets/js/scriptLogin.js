@@ -20,5 +20,7 @@ function onSignIn(response) {
  
             // Recebendo o TOKEN que você usará nas demais requisições à API:
             var LoR = response.getAuthResponse().id_token;
-            console.log("~ le Tolkien: " + LoR);
+		    console.log("~ le Tolkien: " + LoR);
         };
+		
+	
