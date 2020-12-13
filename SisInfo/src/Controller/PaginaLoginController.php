@@ -19,8 +19,6 @@ class PaginaLoginController implements IController
                 "paginaLogin.php",
             ],[
 
-            "titulo"=>"Sisinfo"
-
         ]);
     }
 }

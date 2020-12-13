@@ -15,11 +15,10 @@
 </head>
 
 <body style="color: #fbf8fc;background-color: #ffff;height: 650px;">
-    <footer class="bg-white border rounded-0 border-dark" id="myFooter" style="background-color: rgb(244,245,249);"></footer>
     <div class="bg-white login-clean" style="background-color: #ff;height: 650px;background-image: url(&quot;assets/img/13162448904561.jpg&quot;);">
         <form class="bg-white border rounded-0 border-white shadow-lg" method="post" style="background-color: #ffff;height: 389px;width: 323px;">
             <h2 class="sr-only">Login Form</h2>
-            <div class="illustration" style="background-image: url(&quot;google-own-content-2019.jpg&quot;);height: 170px;margin: 0px;padding: 0px;color: rgb(244,240,241);"></div>
+            <div class="illustration" style="background-image: url(&quot;assets/img/SIS%20INFO.jpg&quot;);height: 214px;margin: 0px;padding: 0px;color: rgb(244,240,241);background-size: cover;"></div>
             <h2 class="text-center" style="color: rgb(7,9,10);font-size: 18px;padding: 2px;height: 28px;width: 236px;">Entre com sua conta Google</h2>
         </form>
     </div>
