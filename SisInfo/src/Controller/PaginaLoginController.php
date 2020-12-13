@@ -7,7 +7,7 @@ use Ifnc\Tads\Entity\Pacote;
 use Ifnc\Tads\Helper\Render;
 use Ifnc\Tads\Helper\Transaction;
 
-class PortalLoginController implements IController
+class PaginaLoginController implements IController
 {
 
     public function request(): void
