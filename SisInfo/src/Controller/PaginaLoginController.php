@@ -9,12 +9,13 @@ use Ifnc\Tads\Helper\Transaction;
 
 class PaginaLoginController implements IController
 {
+    use Flash;
 
     public function request(): void
     {
         echo Render::html(
             [
-                "paginaLogin.php"
+                "paginaLogin.php",
             ],[
 
             "titulo"=>"Sisinfo"
