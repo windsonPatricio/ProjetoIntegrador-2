@@ -15,7 +15,7 @@ class PaginaLoginController implements IController
         Transaction::open();
         echo Render::html(
             [
-                "index.php"
+                "paginaLogin.php"
             ],[
 
             "titulo"=>"Sisinfo"
