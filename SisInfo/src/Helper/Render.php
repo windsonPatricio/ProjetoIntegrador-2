@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Ifnc\Tads\Helper;
+namespace Ifc\Tads\Helper;
 
 
 final class Render
@@ -17,3 +17,5 @@ final class Render
         return $html;
     }
 }
+
+?>

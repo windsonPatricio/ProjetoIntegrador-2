@@ -16,7 +16,7 @@ class PaginaLoginController implements IController
     {
         echo Render::html(
             [
-                "paginaLogin.php",
+                "pagInicial.php"
             ],[
 
         ]);
