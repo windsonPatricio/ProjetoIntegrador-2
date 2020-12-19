@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Ifc\Tads\Helper;
+namespace Ifnc\Tads\Helper;
 
 
 final class Render
@@ -11,11 +11,9 @@ final class Render
         extract($data);
         ob_start();
         foreach($paths as $path){
-            require $_SERVER['DOCUMENT_ROOT']."../View/{$path}";
+            require $_SERVER['DOCUMENT_ROOT']."/../View/{$path}";
         }
         $html = ob_get_clean();
         return $html;
     }
 }
-
-?>
