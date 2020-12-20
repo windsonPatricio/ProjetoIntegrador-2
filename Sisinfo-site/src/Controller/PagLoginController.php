@@ -7,7 +7,7 @@ use Ifnc\Tads\Entity\Pacote;
 use Ifnc\Tads\Helper\Render;
 use Ifnc\Tads\Helper\Transaction;
 
-class PagInicialController implements IController
+class PagLoginController implements IController
 {
 
     public function request(): void
@@ -15,8 +15,8 @@ class PagInicialController implements IController
         Transaction::open();
         echo Render::html(
             [
-                "cabecalho.php",
-                "pagInicial.php"
+
+                "paginaLogin.php"
 
             ],[
 

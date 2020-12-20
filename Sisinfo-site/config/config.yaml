@@ -11,9 +11,9 @@ connection:
   port:
 # caminhos desprotegidos definidos por expressões regulares
 paths_unprotected:
-  - /login/
+  - /selLocalidade/
   - /portal/
-  - /cadastro/
+  - /pagInicial/
   - /404found/
 # caminho seguido quando é acessado um sem permissão
 path_unprotected_default:

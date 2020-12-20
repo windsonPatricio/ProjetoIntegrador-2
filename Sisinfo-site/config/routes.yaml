@@ -1,58 +1,6 @@
 #Configuração de rotas
-/portal:  PagInicialController
-/portalAdm: PortalAdmController
+/portal:  PagLoginController
+/selLocalidade: PagLocalidadeController
+/pagInicial: PagInicialController
 /cadastro: CadastroController
-
-/login-form:  LoginFormController
-/login: LoginController
-/logout:  LogoutController
-
-/listar-produtos: ListarProdutosController
-/listar-estadia: ListarEstadiaController
-/listar-transporte: ListarTransporteController
-/listar-eventos: ListarEventosController
-/listar-local: ListarLocalController
-/listar-pacote: ListarPacoteController
-
-/adicionar-estadia-form: AdicionarEstadiaFormController
-/adicionar-estadia: AdicionarEstadiaController
-/adicionar-evento-form: AdicionarEventoFormController
-/adicionar-evento: AdicionarEventoController
-/adicionar-transporte-form: AdicionarTransporteFormController
-/adicionar-transporte: AdicionarTransporteController
-/adicionar-trecho-form: AdicionarTrechoFormController
-/adicionar-trecho: AdicionarTrechoController
-
-/apagar-produto:  ApagarProdutoController
-/apagar-estadia: ApagarEstadiaController
-/apagar-transporte: ApagarTransporteController
-/apagar-evento: ApagarEventoController
-/apagar-local: ApagarLocalController
-
-/aprovar-pacote: AprovarPacoteController
-/reprovar-pacote: ReprovarPacoteController
-/cancelar-pacote: CancelarPacoteController
-
-/editar-produto-form: EditarProdutoFormController
-/editar-produto:  EditarProdutoController
-/editar-valor-form: EditarValorPacoteFormController
-/editar-valor:  EditarValorPacoteController
-
-/detalhar-pacote: ListarDetalhesPacoteController
-
 /404found:  path404Controller
-
-/cadastro-cliente: CadastroClienteController
-/cadastro-cliente-form: CadastroClienteFormController
-/cadastro-agente: CadastroAgenteController
-/cadastro-agente-form: CadastroAgenteFormController
-/cadastro-Estadia: CadastroEstadiaController
-/cadastro-Estadia-form: CadastroEstadiaFormController
-/cadastro-transporte: CadastroTransporteController
-/cadastro-Transporte-form: CadastroTransporteFormController
-/cadastro-Evento: CadastroEventoController
-/cadastro-Evento-form: CadastroEventoFormController
-/cadastro-Local: CadastroLocalController
-/cadastro-local-form: CadastroLocalFormController
-/cadastro-pacote: CadastroPacoteController
-/cadastro-pacote-form: CadastroPacoteFormController

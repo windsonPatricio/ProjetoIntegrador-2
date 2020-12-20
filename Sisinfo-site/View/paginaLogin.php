@@ -22,7 +22,9 @@
             <h2 class="sr-only">Login Form</h2>
             <div class="illustration" style="background-image: url(&quot;assets/img/SIS%20INFO.jpg&quot;);height: 214px;margin: 0px;padding: 0px;color: rgb(244,240,241);background-size: cover;"></div>
             <h2 class="text-center" style="color: rgb(7,9,10);font-size: 18px;padding: 2px;height: 28px;width: 236px;">Entre com sua conta Google</h2>
-			<div id="meu-botao"></div>
+			<div id="meu-botao">
+                <a href="\selLocalidade" class="text-decoration-none text-white">SAIR</a>
+            </div>
         </form>
     </div>
     <form method="post" style="background-color: #ffff;">

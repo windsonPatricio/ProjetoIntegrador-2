@@ -1,50 +1,39 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
+
 <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>SisInfo - Site</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cookie">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/Article-List.css">
+    <link rel="stylesheet" href="assets/css/Bold-BS4-Footer-Big-Logo.css">
+    <link rel="stylesheet" href="assets/css/Login-Form-Clean.css">
+    <link rel="stylesheet" href="assets/css/Newsletter-Subscription-Form.css">
+    <link rel="stylesheet" href="assets/css/Pretty-Header.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
 </head>
-<body class="bg-light">
-<header>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <a class="navbar-brand" href="/portal">Avenger TUR</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <?php if(isset($_SESSION['usuario'])){?>
-            <div class="collapse navbar-collapse " id="navbarColor01">
-                <div class="float-left">
-                    <h6>
-                        <a href="\logout" class="text-decoration-none text-white">SAIR</a>
-                    </h6>
-                </div>
-            </div>
-
-        <?php } else{?>
+<body style="background-image: url(&quot;assets/img/13162448904561.jpg&quot;);background-size: cover;background-repeat: no-repeat;">
+<nav class="navbar navbar-light navbar-expand-md custom-header">
+    <div class="container-fluid">
+        <div><a class="navbar-brand" href="#" style="height: 92px;background-image: url(&quot;assets/img/Sisinfo%20cabecalho.jpg&quot;);width: 185px;"></a><button data-toggle="collapse" class="navbar-toggler" data-target="#navbar-collapse"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button></div>
+        <div
+                class="collapse navbar-collapse" id="navbar-collapse">
+            <ul class="nav navbar-nav links">
+                <li class="nav-item" role="presentation"><a class="nav-link" href="#">Overview </a></li>
+                <li class="nav-item" role="presentation"><a class="nav-link" href="#">Surveys </a></li>
+                <li class="nav-item" role="presentation"><a class="nav-link" href="#"> Reports</a></li>
+                <li class="nav-item" role="presentation"><a class="nav-link custom-navbar" href="#"> Roles</a></li>
+            </ul>
+            <ul class="nav navbar-nav ml-auto">
+                <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#" style="width: 113px;height: 83px;"> <img class="dropdown-image" src="assets/img/avatar.jpg" style="width: 62px;"></a>
+                    <div class="dropdown-menu dropdown-menu-right"
+                         role="menu"><a class="dropdown-item" role="presentation" href="#">Settings </a><a class="dropdown-item" role="presentation" href="#">Payments </a><a class="dropdown-item" role="presentation" href="#">Logout </a></div>
+                </li>
+            </ul>
         </div>
-        <span class="navbar-text col-9">
-                        <a class="login" href="/login" style="padding-right: 20px">Log In</a>
-                </span>
-        <a class="btn btn-light action-button" role="button" href="/cadastro-cliente-form">Cadastra-se</a>
-        </div>
-        <?php }?>
-    </nav>
-    <main class="container">
-        <?php if(isset($alerts)){?>
-            <?php foreach($alerts as $alert){?>
-                <div class="alert alert-<?=$alert->context?> mt-2" role="alert">
-                    <?=$alert->content?>
-                </div>
-            <?php }?>
-        <?php }?>
-    </main>
-    <main class="container">
-
-</header>
+    </div>
+</nav>
