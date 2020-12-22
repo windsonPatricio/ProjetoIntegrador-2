@@ -1,0 +1,20 @@
+{   "authors": [
+
+        {"name": "wilson Patricio"
+        "email":  "windson.santista01@gmail.com",
+          "homepage": "http://localhost:8090/"
+        }
+        ],
+
+    "require": {
+        "symfony/yaml": "^4.3",
+        "doctrine/annotations": "^1.8",
+        "league/oauth2-google": "^3.0"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Ifnc\\Tads\\": "src"
+        }
+    }
+}

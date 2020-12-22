@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/Sisinfo-site/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/Sisinfo-site/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/Sisinfo-site/vendor/composer" />
+      <path value="$PROJECT_DIR$/Sisinfo-site/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/Sisinfo-site/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/Sisinfo-site/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/Sisinfo-site/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/Sisinfo-site/vendor/league/oauth2-client" />
+      <path value="$PROJECT_DIR$/Sisinfo-site/vendor/league/oauth2-google" />
+      <path value="$PROJECT_DIR$/Sisinfo-site/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/Sisinfo-site/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/Sisinfo-site/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/Sisinfo-site/vendor/psr/http-client" />
+      <path value="$PROJECT_DIR$/Sisinfo-site/vendor/psr/http-message" />
+    </include_path>
+  </component>
+</project>

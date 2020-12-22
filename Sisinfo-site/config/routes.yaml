@@ -1,0 +1,7 @@
+#Configuração de rotas
+/portal:  PagLoginController
+/selLocalidade: PagLocalidadeController
+/pagInicial: PagInicialController
+/cadastro: CadastroController
+/404found:  path404Controller
+/login: loginControler
