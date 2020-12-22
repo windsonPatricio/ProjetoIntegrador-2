@@ -15,7 +15,7 @@ if(isset($_SERVER['PATH_INFO'])){
 }
 
 if (
-        !isset($_SESSION['usuario'])
+        !isset($_SESSION['userLogin'])
         &&
         !array_filter(
             $config["paths_unprotected"],

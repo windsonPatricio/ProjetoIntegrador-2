@@ -4,3 +4,4 @@
 /pagInicial: PagInicialController
 /cadastro: CadastroController
 /404found:  path404Controller
+/login: loginControler

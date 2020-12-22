@@ -1,23 +1,6 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Projeto Intergrador 2Sem</title>
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cookie">
-    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/css/Article-List.css">
-    <link rel="stylesheet" href="assets/css/Bold-BS4-Footer-Big-Logo.css">
-    <link rel="stylesheet" href="assets/css/Login-Form-Clean.css">
-    <link rel="stylesheet" href="assets/css/Newsletter-Subscription-Form.css">
-    <link rel="stylesheet" href="assets/css/Pretty-Header.css">
-    <link rel="stylesheet" href="assets/css/styles.css">
-</head>
-
-<body class="text-center" style="background-image: url(&quot;assets/img/13162448904561.jpg&quot;);background-size: cover;background-repeat: no-repeat;">
-    <h2 class="text-center" style="color: rgb(7,9,10);font-size: 24px;padding: 0;height: 78px;margin: 15px;letter-spacing: 0px;font-style: normal;font-weight: bold;">Para onde vamos?</h2>
+<body class="text-center" style="background-image: url(&quot;assets/img/13162448904561.jpg&quot;);background-size: cover;background-repeat: repeat;">
+    <h3 class="text-center" style="color: rgb(7,9,10);font-size: 60px;padding: 0;height: 78px;margin: 5px;letter-spacing: 0px;font-style: normal;font-weight: bold;">Bem Vindo <?= $user->getFirstName()?> <?= $user->getLastName()?> !!</h3>
+    <h2 class="text-center" style="color: rgb(7,9,10);font-size: 50px;padding: 0;height: 78px;margin: 5px;letter-spacing: 0px;font-style: normal;font-weight: bold;">Para onde vamos?</h2>
 
     <form action="" id="create-class">
     <fieldset>
