@@ -21,7 +21,7 @@
         </div>
         <div class="col-sm-6 col-md-5 col-lg-4 col-xl-3 offset-md-0 offset-lg-0 item" style="padding: 40px;height: 350px;">
             <form class="bg-white border rounded-0 border-dark shadow" method="post" style="background-color: #ffff;height: 259px;width: 265px;margin: 0;">
-                <h2 class="sr-only">Login Form</h2>
+                <img src="assets/img/404.jpg" style=" align-content:center; height: 250px;width: 260px;">
             </form>
             <h2 class="text-center" style="color: rgb(7,9,10);font-size: 18px;padding: 2px;height: 54px;width: 265px;">Estabelecimentos <br>comerciais</h2>
         </div>
