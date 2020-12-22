@@ -2,7 +2,7 @@
     <h3 class="text-center" style="color: rgb(7,9,10);font-size: 60px;padding: 0;height: 78px;margin: 5px;letter-spacing: 0px;font-style: normal;font-weight: bold;">Bem Vindo <?= $user->getFirstName()?> <?= $user->getLastName()?> !!</h3>
     <h2 class="text-center" style="color: rgb(7,9,10);font-size: 50px;padding: 0;height: 78px;margin: 5px;letter-spacing: 0px;font-style: normal;font-weight: bold;">Para onde vamos?</h2>
 
-    <form action="" id="create-class">
+    <form action="/pagInicial?city=<?=$_GET["city"]?>" id="create-class" method="get">
     <fieldset>
 
                 <select name="uf" required class="border rounded-0 border-dark shadow-lg" style="height: 50px;width: 160px;margin: 28px;font-size: 20px;">
@@ -16,7 +16,7 @@
                 </select>
 
     </fieldset>
-        <a class="btn btn-success" href="\pagInicial">Selecionar</a>
+        <button type ="submit" class="btn btn-success">Selecionar</button>
 
     </form>
     <script src="assets/js/jquery.min.js"></script>

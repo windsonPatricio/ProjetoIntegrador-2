@@ -19,7 +19,7 @@ class PagInicialController implements IController
                 "pagInicial.php"
 
             ],[
-
+            "cidades"=>Municipios::all(),
             "titulo"=>"SisInfo"
 
         ]);
